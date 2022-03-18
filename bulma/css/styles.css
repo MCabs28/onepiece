@@ -1,0 +1,314 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ font-family: 'Courier New', Courier, monospace;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ scroll-behavior: smooth;
+}
+
+img{
+  cursor: pointer;
+}
+
+.icon-room{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.hero-mode{
+      background-image: url('../../images/lawo.png');
+      background-size: cover;
+      background-position:center;
+   }
+
+.hero-modes{
+    background-image: url('../../images/law1.jpg');
+    background-size: cover;
+    background-position:center;
+ }
+
+.contact-image{
+  background-image: url('../../images/law2.png');
+    background-size: cover;
+    background-position:center;
+}
+
+.hero-background{
+
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.815), rgb(104, 87, 3) 100%);
+}
+
+.brand{
+margin-left: 100px;
+height: 65px;
+width: 65px;
+}
+.brandPara{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+  
+
+
+.nav-item{
+margin-right: 110px;
+}
+
+.hero-content{
+ margin-top:-140px;
+}
+
+
+
+
+#image1{
+  background-image: url('../../images/law6.jpg');
+  background-position:center;
+  background-size: cover;
+}
+
+#image2{
+  background-image: url('../../images/law3.jpg');
+  background-position:center;
+  background-size: cover;
+  
+}
+
+#image3{
+  background-image: url('../../images/law4.jpg');
+  background-position:center;
+  background-size: cover;
+  
+}
+
+#image4{
+  background-image: url('../../images/law5.png');
+  background-position:center;
+  background-size: cover;
+  
+}
+
+
+
+
+#pic1{
+  background-image: url('../../images/lawposter.jpg');
+  background-position:center;
+  background-size: cover;
+}
+
+#pic2{
+  background-image: url('../../images/luffyposter.jpg');
+  background-position:center;
+  background-size: cover;
+}
+
+#pic3{
+  background-image: url('../../images/kidposter.JPG');
+  background-position:center;
+  background-size: cover;
+}
+
+
+#bgImage{
+  background-image: url('../../images/onepiece.jpg');
+  background-position:center;
+  background-size: cover;
+}
+
+
+
+.image{
+  height: 700px;
+  display: block;
+  width: 100%;
+}
+
+
+.pic{
+  position: relative;
+}
+
+
+
+
+.over-1{
+  box-sizing: border-box;
+  position: absolute; 
+  top: 11px;
+  right: 11px;
+  left: 11px;
+  bottom: 11px;  
+  opacity:0;
+  color: rgb(195, 241, 195);
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color:#777375;
+}
+
+
+.over-1:hover{
+  opacity:0.8;
+}
+
+.over-2{
+  box-sizing: border-box;
+  position: absolute; 
+  top: 11px;
+  right: 11px;
+  left: 11px;
+  bottom: 11px;  
+  opacity:0;
+  color: red;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color:#a3f1e3;
+}
+
+
+.over-2:hover{ 
+  opacity:0.8;
+}
+
+
+
+.over-3{
+  box-sizing: border-box;
+  position: absolute; 
+  top: 11px;
+  right: 11px;
+  left: 11px;
+  bottom: 11px;  
+  opacity:0;
+  color:rgb(4, 4, 243);
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color:#f1503b;
+}
+
+.over-3:hover{
+  opacity:0.8;
+
+}
+
+.white-icon{
+  color: white;
+  margin-right: 12px;
+}
+
+#pxthirty{
+  font-size: 30px;
+}
+
+#fourD{
+  width: 100%;
+  height: 100%;
+}
+
+.mLeft{
+margin-left: 50px;
+}
+
+.mRight{
+margin-right: 10px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .brand{
+    margin-left:0px;
+    height: 65px;
+    width: 65px;
+    }
+    .brandPara{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+
+    .icon-room{
+      margin-top: 8px;
+      margin-right: 5px;
+    }
+    
+  .nav-item{
+  margin-right:0px;
+  }
+  
+  .hero-content{
+   margin-top:0px; margin-left: 0px;
+  }
+  
+  }
+  
+
+
+  @media (max-width: 700px) {
+    .nav-item{
+      margin-right:0px;
+      }
+   
+    .brand{
+      margin-left:0px;
+      text-align: center;
+      height: 50px;
+      width: 50px;
+      }
+      .brandPara{
+        margin-left: 5px;
+      }
+
+      .icon-room{
+        margin-top: 5px;
+        margin-right: 5px;
+      }
+
+      .over-1:hover{
+        font-size: 30px;
+      }
+      .over-2:hover{
+        font-size: 30px;
+      }
+      .over-3:hover{
+        font-size: 30px;
+      }
+
+      
+
+  }
+
+  @media (max-width: 400px) {
+   
+    
+      .hero-content{
+        text-align: center;
+      }
+
+      .over-1:hover{
+        font-size: 28px;
+      }
+      .over-2:hover{
+        font-size: 28px;
+      }
+      .over-3:hover{
+        font-size: 28px;
+      }
+
+      .brand{
+        margin-left:0px;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        }
+        .brandPara{
+          margin-left: 5px;
+        }
+      
+  }
